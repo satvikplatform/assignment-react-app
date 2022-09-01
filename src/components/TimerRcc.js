@@ -21,6 +21,9 @@ class TimerRcc extends React.Component {
     componentDidMount() {
         setInterval(this.secIncrement, 1000);
     }
+    componentWillUnmount() {
+        console.log("seconds closing");
+    }
 };
 
 
