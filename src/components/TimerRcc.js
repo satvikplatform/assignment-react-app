@@ -1,27 +1,30 @@
 import React from "react";
 
 
-class TimerRcc extends React.Component {
-    constructor() {
-        super();
-        this.state = {seconds:0}
-    }
 
-     secIncrement = () => {
+class TimerRcc extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {seconds: this.props.startVal}
+    }
+    secIncrement = () => {
+        // this.setState((prevState) => {return {seconds: prevState.seconds + 1,}});
         this.setState({seconds: this.state.seconds + 1});
     }
-    componentDidMount() {
-        this.interval = setInterval(() => {this.secIncrement()},1000);
-    }
-    
     render() {
         return(
             <>
-                <h1>You came to this site at {this.state.seconds} seconds ago</h1>
-              {/*   <button onClick={this.secIncrement}>Increment</button> */}
+                <h1>Seconds : {this.state.seconds}</h1>
             </>
         );
     };
+    componentDidMount() {
+        setInterval(this.secIncrement, 1000);
+    }
 };
 
+
 export default TimerRcc;
+
+
+
