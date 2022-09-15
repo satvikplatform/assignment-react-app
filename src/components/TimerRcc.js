@@ -8,8 +8,8 @@ class TimerRcc extends React.Component {
         this.state = {seconds: this.props.startVal}
     }
     secIncrement = () => {
-        // this.setState((prevState) => {return {seconds: prevState.seconds + 1,}});
-        this.setState({seconds: this.state.seconds + 1});
+         this.setState((prevState) => {return {seconds: prevState.seconds + 1}});
+       /*  this.setState({seconds: this.state.seconds + 1}); */
     }
     render() {
         return(
@@ -22,7 +22,7 @@ class TimerRcc extends React.Component {
         setInterval(this.secIncrement, 1000);
     }
     componentWillUnmount() {
-        console.log("seconds closing");
+        alert("seconds closing");
     }
 };
 

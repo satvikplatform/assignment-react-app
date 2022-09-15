@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-/* import TimerRcc from './components/TimerRcc'; */
+import TimerRcc from './components/TimerRcc';
 import TimerRfc from './components/TimerRfc';
 
 
@@ -9,13 +9,14 @@ function App() {
   let value = 100;
 
   const removeHandler = () => {
-    setShow((prevState) => {prevState = false});
+    // setShow(false);
+    setShow((prevState) => { return !prevState });
   }
   return (
     <div>
         {show &&
-          <TimerRfc />
-      /*   <TimerRcc startVal = {value} /> */
+       /*    <TimerRfc /> */
+        <TimerRcc startVal = {value} />
         } 
         <button onClick={removeHandler}>Remove seconds</button>
     </div>
