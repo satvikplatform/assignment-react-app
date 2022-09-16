@@ -1,5 +1,6 @@
 import React  from 'react';
 import './App.css';
+import ControlledFormComponent from './components/ControlledFormComponent';
 import EventsFormScenario from './components/EventsFormScenario';
 import EventsThisScenario from './components/EventsThisScenario';
 import PassingArgumentsInEvents from './components/PassingArgumentsInEvents';
@@ -13,7 +14,9 @@ function App() {
     <div>
        {/*  <EventsThisScenario /> */}
        {/*  <EventsFormScenario /> */}
-        <PassingArgumentsInEvents />
+       {/* <PassingArgumentsInEvents /> */}
+       <ControlledFormComponent />
+
     </div>
   );
 }
