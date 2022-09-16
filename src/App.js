@@ -3,7 +3,9 @@ import './App.css';
 import ControlledFormComponent from './components/ControlledFormComponent';
 import EventsFormScenario from './components/EventsFormScenario';
 import EventsThisScenario from './components/EventsThisScenario';
+import HandlingMultipleInputs from './components/HandlingMultipleInputs';
 import PassingArgumentsInEvents from './components/PassingArgumentsInEvents';
+import SelectTagMultipleScenario from './components/selectTagMultipleScenario';
 import SelectTagScenario from './components/SelectTagScenario';
 import TextAreaScenario from './components/TextAreaScenario';
 /* import TimerRcc from './components/TimerRcc';
@@ -16,10 +18,12 @@ function App() {
     <div>
       {/*  <EventsThisScenario /> */}
       {/*  <EventsFormScenario /> */}
-      {/* <PassingArgumentsInEvents /> */}
+      {/*   <PassingArgumentsInEvents /> */}
       {/* <ControlledFormComponent /> */}
       {/*   <TextAreaScenario /> */}
-      <SelectTagScenario />
+      {/*   <SelectTagScenario /> */}
+      {/* <SelectTagMultipleScenario /> */}
+      <HandlingMultipleInputs />
 
     </div>
   );
