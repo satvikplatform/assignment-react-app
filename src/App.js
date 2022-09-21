@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ControlledFormComponent from './components/ControlledFormComponent';
+import CustomTextInput from './components/CustomTextInput';
 import EventsFormScenario from './components/EventsFormScenario';
 import EventsThisScenario from './components/EventsThisScenario';
 import HandlingMultipleInputs from './components/HandlingMultipleInputs';
@@ -23,7 +24,8 @@ function App() {
       {/*   <TextAreaScenario /> */}
       {/*   <SelectTagScenario /> */}
       {/* <SelectTagMultipleScenario /> */}
-      <HandlingMultipleInputs />
+      {/* <HandlingMultipleInputs /> */}
+      <CustomTextInput />
 
     </div>
   );
