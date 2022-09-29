@@ -1,5 +1,5 @@
 import React from 'react';
-import CounterExample from './components/CounterExample';
+/* import CounterExample from './components/CounterExample'; */
 import "./index.css";
 /* import Calculator from './state_of_water/Calculator'; */
 /* import ControlledFormComponent from './components/ControlledFormComponent';
@@ -29,10 +29,10 @@ function App() {
       {/* <SelectTagMultipleScenario /> */}
       {/* <HandlingMultipleInputs /> */}
       {/*  <CustomTextInput /> */}
-      {/*       <FilterableProductTable /> */}
+            <FilterableProductTable />
       {/*    <Calculator /> */}
       {/* <ParentForCheckingPropTypes name={1}/> */}
-      <CounterExample />
+     {/*  <CounterExample /> */}
     </div>
   );
 }
