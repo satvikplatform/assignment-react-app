@@ -1,10 +1,9 @@
-import React from 'react'
-import { useState } from 'react';
+import React from 'react';
 
 const SportItems = (props) => {
   return (
     <div className='flex justify-between w-[250px]'>
-        <h1>{props.item.name}</h1>
+        <h1 style={{color:props.stocked?"black" : "red"}}>{props.item.name}</h1>
         <h1>{props.item.price}</h1>
     </div>
   )

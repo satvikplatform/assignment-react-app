@@ -7,4 +7,33 @@ const productData = [
     {category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7"}
   ];
 
-  export default productData;
+  
+
+ const sportGoods = productData.filter((item) => {
+  if(item.category === "Sporting Goods") {
+    return item;
+  }
+ });
+
+ const electronicGoods = productData.filter((item) => {
+  if(item.category === "Electronics") {
+    return item;
+  }
+ });
+
+  const stockedSportsProducts  = productData.filter((item) => {
+    if(item.stocked === true && item.category === "Sporting Goods" ) {
+      return item;
+    }
+  });
+
+  const stockedElectronicProducts  = productData.filter((item) => {
+    if(item.stocked === true && item.category === "Electronics" ) {
+      return item;
+    }
+  });
+
+
+
+
+  export {sportGoods, electronicGoods, stockedSportsProducts, stockedElectronicProducts};
