@@ -1,19 +1,23 @@
 import React from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
-import ChildRcc from "./ChildRcc";
-/* import ChildRfc from "./ChildRfc"; */
+/* import ChildRcc from "./ChildRcc"; */
+import ChildRfc from "./ChildRfc";
 
 const RefParent = () => {
     const textInput = useRef(null);
 
-    useEffect(() => {
+   /*  useEffect(() => {
         textInput.current.myDisplay();
+    }) */
+
+    useEffect(() => {
+        textInput.current.focus();
     })
     return (
         <div>
-            <ChildRcc ref={textInput} />
-         {/*   <ChildRfc /> */}
+          {/*   <ChildRcc ref={textInput} /> */}
+           <ChildRfc ref={textInput} />
         </div>
     );
 };
