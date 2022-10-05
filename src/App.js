@@ -1,9 +1,6 @@
 import React from 'react';
-/* import Example from './components/Example'; */
 /* import CounterExample from './components/CounterExample'; */
 import "./index.css";
-/* import FormPractice from './practice/FormPractice'; */
-/* import PointerPractice from './practice/PointerPractice'; */
 /* import Calculator from './state_of_water/Calculator'; */
 /* import ControlledFormComponent from './components/ControlledFormComponent';
 import CustomTextInput from './components/CustomTextInput';
@@ -14,7 +11,7 @@ import PassingArgumentsInEvents from './components/PassingArgumentsInEvents';
 import SelectTagMultipleScenario from './components/selectTagMultipleScenario';
 import SelectTagScenario from './components/SelectTagScenario';
 import TextAreaScenario from './components/TextAreaScenario'; */
-/* import FilterableProductTable from './productFilter/FilterableProductTable'; */
+import FilterableProductTable from './productFilter/FilterableProductTable';
 /* import ParentForCheckingPropTypes from './components/ParentForCheckingPropTypes'; */
 /* import TimerRcc from './components/TimerRcc';
 import TimerRfc from './components/TimerRfc'; */
@@ -32,14 +29,10 @@ function App() {
       {/* <SelectTagMultipleScenario /> */}
       {/* <HandlingMultipleInputs /> */}
       {/*  <CustomTextInput /> */}
-      {/*        <FilterableProductTable /> */}
+            <FilterableProductTable />
       {/*    <Calculator /> */}
       {/* <ParentForCheckingPropTypes name={1}/> */}
-      {/*  <CounterExample /> */}
-      {/*   <Example/> */}
-      {/*  <FormPractice /> */}
-      {/* <PointerPractice /> */}
-
+     {/*  <CounterExample /> */}
     </div>
   );
 }
