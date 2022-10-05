@@ -2,6 +2,7 @@ import React from 'react';
 /* import Example from './components/Example'; */
 /* import CounterExample from './components/CounterExample'; */
 import "./index.css";
+import RefParent from './refs_scenario/RefParent';
 /* import FormPractice from './practice/FormPractice'; */
 /* import PointerPractice from './practice/PointerPractice'; */
 /* import Calculator from './state_of_water/Calculator'; */
@@ -39,6 +40,7 @@ function App() {
       {/*   <Example/> */}
       {/*  <FormPractice /> */}
       {/* <PointerPractice /> */}
+      <RefParent />
 
     </div>
   );
