@@ -2,12 +2,15 @@ import React from 'react';
 /* import Example from './components/Example'; */
 /* import CounterExample from './components/CounterExample'; */
 import "./index.css";
-import RefParent from './refs_scenario/RefParent';
+import UseReducerScenario from './useReducer/UseReducerScenario';
+/* import BlurExample from './pointerReference/BlurExample'; */
+/* import OuterClickExample from './pointerReference/OuterClickExample'; */
+/* import RefParent from './refs_scenario/RefParent'; */
 /* import FormPractice from './practice/FormPractice'; */
 /* import PointerPractice from './practice/PointerPractice'; */
 /* import Calculator from './state_of_water/Calculator'; */
 /* import ControlledFormComponent from './components/ControlledFormComponent';
-import CustomTextInput from './components/CustomTextInput';
+import CustomTextInput from './components/CustomTextInput';234
 import EventsFormScenario from './components/EventsFormScenario';
 import EventsThisScenario from './components/EventsThisScenario';
 import HandlingMultipleInputs from './components/HandlingMultipleInputs';
@@ -40,7 +43,13 @@ function App() {
       {/*   <Example/> */}
       {/*  <FormPractice /> */}
       {/* <PointerPractice /> */}
-      <RefParent />
+      {/*   <RefParent /> */}
+      {/*  <OuterClickExample /> */}
+      {/*    <hr />
+      <hr /> */}
+      {/*  <BlurExample /> */}
+      
+
 
     </div>
   );
