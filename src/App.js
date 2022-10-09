@@ -2,7 +2,8 @@ import React from 'react';
 /* import Example from './components/Example'; */
 /* import CounterExample from './components/CounterExample'; */
 import "./index.css";
-import UseReducerScenario from './useReducer/UseReducerScenario';
+import UseReducerScenarioTwo from './useReducer/UseReducerScenarioTwo';
+/* import UseReducerScenario from './useReducer/UseReducerScenario'; */
 /* import BlurExample from './pointerReference/BlurExample'; */
 /* import OuterClickExample from './pointerReference/OuterClickExample'; */
 /* import RefParent from './refs_scenario/RefParent'; */
@@ -48,8 +49,9 @@ function App() {
       {/*    <hr />
       <hr /> */}
       {/*  <BlurExample /> */}
-      <UseReducerScenario />
-      
+      {/* <UseReducerScenario /> */}
+      <UseReducerScenarioTwo />
+
 
 
     </div>
