@@ -1,12 +1,17 @@
 import React from 'react';
+import Context from './context_practice/Context';
+import "./index.css";
+/* import FetchAssignment from './fetch_assignment/FetchAssignment'; */
+/* import AxiosAssignment from './axios_assignment/AxiosAssignment'; */
+/* import FetchScenario from './fetch_scenario/FetchScenario';
 /* import Example from './components/Example'; */
 /* import CounterExample from './components/CounterExample'; */
-import "./index.css";
-import UseReducerScenarioTwo from './useReducer/UseReducerScenarioTwo';
+/* import PromiseScenario from './promise/PromiseScenario';*/
+/* import UseReducerScenarioTwo from './useReducer/UseReducerScenarioTwo'; */
 /* import UseReducerScenario from './useReducer/UseReducerScenario'; */
 /* import BlurExample from './pointerReference/BlurExample'; */
 /* import OuterClickExample from './pointerReference/OuterClickExample'; */
-/* import RefParent from './refs_scenario/RefParent'; */
+/* import RefParent from './refs_scenario/RefParent';*/
 /* import FormPractice from './practice/FormPractice'; */
 /* import PointerPractice from './practice/PointerPractice'; */
 /* import Calculator from './state_of_water/Calculator'; */
@@ -14,11 +19,11 @@ import UseReducerScenarioTwo from './useReducer/UseReducerScenarioTwo';
 import CustomTextInput from './components/CustomTextInput';234
 import EventsFormScenario from './components/EventsFormScenario';
 import EventsThisScenario from './components/EventsThisScenario';
-import HandlingMultipleInputs from './components/HandlingMultipleInputs';
 import PassingArgumentsInEvents from './components/PassingArgumentsInEvents';
 import SelectTagMultipleScenario from './components/selectTagMultipleScenario';
 import SelectTagScenario from './components/SelectTagScenario';
 import TextAreaScenario from './components/TextAreaScenario'; */
+import HandlingMultipleInputs from './components/HandlingMultipleInputs';
 /* import FilterableProductTable from './productFilter/FilterableProductTable'; */
 /* import ParentForCheckingPropTypes from './components/ParentForCheckingPropTypes'; */
 /* import TimerRcc from './components/TimerRcc';
@@ -35,7 +40,7 @@ function App() {
       {/*   <TextAreaScenario /> */}
       {/*   <SelectTagScenario /> */}
       {/* <SelectTagMultipleScenario /> */}
-      {/* <HandlingMultipleInputs /> */}
+      <HandlingMultipleInputs />
       {/*  <CustomTextInput /> */}
       {/*        <FilterableProductTable /> */}
       {/*    <Calculator /> */}
@@ -44,16 +49,17 @@ function App() {
       {/*   <Example/> */}
       {/*  <FormPractice /> */}
       {/* <PointerPractice /> */}
-      {/*   <RefParent /> */}
+      {/*    <RefParent /> */}
       {/*  <OuterClickExample /> */}
-      {/*    <hr />
-      <hr /> */}
+      {/*    <hr /><hr /> */}
       {/*  <BlurExample /> */}
       {/* <UseReducerScenario /> */}
-      <UseReducerScenarioTwo />
-
-
-
+      {/*  <UseReducerScenarioTwo /> */}
+      {/* <FetchScenario /> */}
+      {/*   <PromiseScenario /> */}
+      {/*     <FetchAssignment /> */}
+      {/*  <AxiosAssignment /> */}
+      {/*  <Context /> */}
     </div>
   );
 }

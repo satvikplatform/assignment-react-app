@@ -12,7 +12,7 @@ class HandlingMultipleInputs extends React.Component {
     }
   
     handleInputChange(event) {
-      const target = event.target;
+      const target = event;
       console.log(target);
       const value = target.type === 'checkbox' ? target.checked : target.value;
       console.log(value);
